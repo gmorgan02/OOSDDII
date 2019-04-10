@@ -152,6 +152,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="OOSDDII.cpp" />
+    <ClCompile Include="Surgery.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Surgery.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

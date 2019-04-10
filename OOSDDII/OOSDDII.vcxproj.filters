@@ -18,5 +18,13 @@
     <ClCompile Include="OOSDDII.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Surgery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Surgery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
