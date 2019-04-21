@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DoctorLogin.cpp" />
     <ClCompile Include="Doctor.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="OOSDDII.cpp" />
@@ -160,10 +161,15 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Doctor.h" />
+    <ClInclude Include="DoctorLogin.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Patient.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="Surgery.h" />
     <ClInclude Include="User.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OOSDDII.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

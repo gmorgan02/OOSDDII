@@ -1,4 +1,2 @@
-﻿  Menu.cpp
-  OOSDDII.cpp
-  Generating Code...
-  OOSDDII.vcxproj -> C:\Git.Projects\OOSDDII\OOSDDII\x64\Debug\OOSDDII.exe
+﻿  DoctorLogin.cpp
+C:\Git.Projects\OOSDDII\OOSDDII\DoctorLogin.cpp(10): error C4716: 'ValidateLogin': must return a value
