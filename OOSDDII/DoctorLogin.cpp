@@ -2,8 +2,9 @@
 
 
 
-bool ValidateLogin(std::string, std::string)
+bool ValidateLogin(std::string enteredName, std::string enteredPassword)
 {	
+
 
 	return false;
 }
@@ -14,9 +15,6 @@ void DoctorLogin()
 	std::string enteredPassword;
 	bool validLogin = false;
 	
-
-
-
 	while (!validLogin)
 	{
 		std::cout << "Please Enter your name(First Name *Space* Last Name)\n";
