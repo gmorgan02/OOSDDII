@@ -1,4 +1,5 @@
 #include <iostream>
+#include "DoctorLogin.h"
 
 void Menu()
 {
@@ -21,7 +22,7 @@ void Menu()
 			break;
 		case 2:
 			validChoice = true;
-			std::cout << "Option 1\n";
+			DoctorLogin();
 			break;
 		case 3:
 			validChoice = true;

@@ -156,6 +156,7 @@
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="OOSDDII.cpp" />
     <ClCompile Include="Patient.cpp" />
+    <ClCompile Include="sqlite3.c" />
     <ClCompile Include="Surgery.cpp" />
     <ClCompile Include="User.cpp" />
   </ItemGroup>
