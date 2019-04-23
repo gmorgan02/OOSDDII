@@ -20,6 +20,6 @@ void Patient::GetPatient(std::string namePass, std::string passwordPass, int pho
 void Patient::CreatePatient()
 {
 	std::ofstream patientFile("Patients.csv", std::ios::app);
-	patientFile << Name << "," << Password << "," << PhoneNumber << "," << Field << "," << SurgeryName << "\n";
+	patientFile << Name << "," << Password << "," << PhoneNumber << "," << Address << "," << Ailment << "\n";
 	patientFile.close();
 }

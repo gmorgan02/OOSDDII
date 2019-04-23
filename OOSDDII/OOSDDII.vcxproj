@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CreateDoctor.cpp" />
     <ClCompile Include="DoctorLogin.cpp" />
     <ClCompile Include="Doctor.cpp" />
     <ClCompile Include="Menu.cpp" />
@@ -160,6 +161,7 @@
     <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CreateDoctor.h" />
     <ClInclude Include="Doctor.h" />
     <ClInclude Include="DoctorLogin.h" />
     <ClInclude Include="Menu.h" />

@@ -14,15 +14,15 @@ Doctor::~Doctor()
 {
 }
 
-void Doctor::GetDoctor(std::string namePass, std::string passwordPass, std::string fieldPass, std::string surgeryName)
+void Doctor::GetDoctor(std::string namePass, std::string passwordPass, std::string fieldPass, std::string surgeryNamePass)
 {
-	std::string Name = namePass, Password = passwordPass, Field = fieldPass, SurgeryName = surgeryName;
+	std::string Name = namePass, Password = passwordPass, Field = fieldPass, SurgeryName = surgeryNamePass;
 }
 
-void Doctor::CreateDoctor()
-{
+void Doctor::CreateDoctor(std::string namePass, std::string passwordPass, std::string fieldPass, std::string surgeryNamePass)
+{	
 	std::ofstream doctorFile("Doctors.csv", std::ios::app);
-	doctorFile << Name << "," << Password << "," << Field << "," << SurgeryName << "\n";
+	doctorFile << namePass << "," << passwordPass << "," << fieldPass << "," << surgeryNamePass << "\n";
 	doctorFile.close();
 }
 
