@@ -14,7 +14,7 @@ Doctor::~Doctor()
 {
 }
 
-void Doctor::AddDoctor(std::string namePass, std::string passwordPass, std::string fieldPass, std::string surgeryName)
+void Doctor::GetDoctor(std::string namePass, std::string passwordPass, std::string fieldPass, std::string surgeryName)
 {
 	std::string Name = namePass, Password = passwordPass, Field = fieldPass, SurgeryName = surgeryName;
 }
