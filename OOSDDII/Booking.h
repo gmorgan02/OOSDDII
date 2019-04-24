@@ -17,7 +17,7 @@ public:
 	std::string GetDoctorName();
 	void SetSurgeryName(std::string);
 	std::string GetSurgeryName();
-	void SetBookings();
+	void SetBookings(std::string, std::string);
 	std::vector<std::string> GetBookings();
 private:
 	std::vector<int> Times;

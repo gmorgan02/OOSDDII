@@ -1,6 +1,7 @@
 #include "Booking.h"
 #include "Surgery.h"
 #include <fstream>
+#include <iostream>
 
 
 Booking::Booking()
@@ -56,19 +57,18 @@ std::string Booking::GetSurgeryName()
 	return SurgeryName;
 }
 
-void Booking::SetBookings()
+void Booking::SetBookings(std::string doctorNamePass, std::string patientNamePass)
 {
 	std::vector<std::string> bookings;
 	std::string storedBookings;
 
-	std::ofstream bookingFile(SurgeryName + "_Bookings.csv", std::ios::app);
+	std::ofstream bookingFile(SurgeryName + "_Bookings.csv");
 
-	while (std::getline(bookingFile, storedBookings, ','))
-	{
-		bookings.push_back(storedBookings);
+	for (int i = 0; i < Times.size(); i++)
+	{		
+		bookingFile << Times[i] << "," << DoctorName << "," << PatientName << "\n";
 	}
-
-	return bookings;
+	
 }
 
 std::vector<std::string> Booking::GetBookings()

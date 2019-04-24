@@ -151,6 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Booking.cpp" />
     <ClCompile Include="BookingList.cpp" />
     <ClCompile Include="CreateDoctor.cpp" />
     <ClCompile Include="CreatePatient.cpp" />
@@ -168,6 +169,7 @@
     <ClCompile Include="Surgery.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Booking.h" />
     <ClInclude Include="BookingList.h" />
     <ClInclude Include="CreatePatient.h" />
     <ClInclude Include="CreateDoctor.h" />
