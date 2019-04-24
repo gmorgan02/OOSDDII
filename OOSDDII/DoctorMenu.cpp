@@ -1,12 +1,14 @@
 
 #include <iostream>
+#include "Doctor.h"
 #include "CreateDoctor.h"
+#include "CreateSurgery.h"
 
-void DoctorMenu()
-{
+void DoctorMenu(Doctor* objLoggedInDoctor)
+{	
 	int option;
 	bool validChoice = false;
-	std::cout << "Welcome to the program!\n";
+	std::cout << "Welcome to the Doctor Menu " << objLoggedInDoctor->GetName() << "!\n";
 
 
 
@@ -19,15 +21,16 @@ void DoctorMenu()
 		{
 		case 1:
 			validChoice = true;
+			//TODO add view bookings
 			std::cout << "Option 1\n";
 			break;
 		case 2:
 			validChoice = true;
-			GetCreateDoctor();
+			CreateDoctor(objLoggedInDoctor);
 			break;
 		case 3:
 			validChoice = true;
-			GetCreateSurgery();
+			CreateSurgery(objLoggedInDoctor);
 			break;
 		default:
 			std::cout << "Please select a valid option\n\n";

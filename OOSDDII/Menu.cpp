@@ -1,6 +1,7 @@
 #include <iostream>
 #include "DoctorLogin.h"
-#include "CreateDoctor.h"
+#include "PatientLogin.h"
+#include "CreatePatient.h"
 
 void Menu()
 {
@@ -13,19 +14,23 @@ void Menu()
 	while (!validChoice)
 	{
 		std::cout << "Please Select from one of the following:\n";
-		std::cout << "1. Patient Login\n2. Doctor Login\n3. Exit Program\n";
+		std::cout << "1. Patient Login\n2. Doctor Login\n3. Add new Patient\n4. Exit Program\n";
 		std::cin >> option;
 		switch (option)
 		{
 		case 1:
 			validChoice = true;
-			std::cout << "Option 1\n";
+			PatientLogin();
 			break;
 		case 2:
 			validChoice = true;
 			DoctorLogin();
 			break;
 		case 3:
+			validChoice = true;
+			CreatePatient();
+			break;
+		case 4:
 			validChoice = true;
 			break;
 		default:

@@ -1,7 +1,8 @@
 #include "Doctor.h"
 #include <iostream>
+#include "DoctorMenu.h"
 
-void GetCreateDoctor()
+void CreateDoctor(Doctor* objLoggedInDoctor)
 {
 	Doctor objDoctor;
 	std::string namePass, passwordPass, fieldPass, surgeryNamePass;
@@ -22,4 +23,7 @@ void GetCreateDoctor()
 	std::getline(std::cin, surgeryNamePass);
 
 	objDoctor.CreateDoctor(namePass, passwordPass, fieldPass, surgeryNamePass);
+
+	std::cout << "Doctor Created!\n";
+	DoctorMenu(objLoggedInDoctor);
 }

@@ -151,24 +151,38 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="BookingList.cpp" />
     <ClCompile Include="CreateDoctor.cpp" />
+    <ClCompile Include="CreatePatient.cpp" />
     <ClCompile Include="DoctorLogin.cpp" />
     <ClCompile Include="Doctor.cpp" />
+    <ClCompile Include="DoctorMenu.cpp" />
+    <ClCompile Include="CreateSurgery.cpp" />
     <ClCompile Include="Menu.cpp" />
     <ClCompile Include="OOSDDII.cpp" />
     <ClCompile Include="Patient.cpp" />
+    <ClCompile Include="PatientLogin.cpp" />
+    <ClCompile Include="PatientMenu.cpp" />
+    <ClCompile Include="SelectDoctor.cpp" />
+    <ClCompile Include="SelectSurgery.cpp" />
     <ClCompile Include="Surgery.cpp" />
-    <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BookingList.h" />
+    <ClInclude Include="CreatePatient.h" />
     <ClInclude Include="CreateDoctor.h" />
     <ClInclude Include="Doctor.h" />
     <ClInclude Include="DoctorLogin.h" />
+    <ClInclude Include="DoctorMenu.h" />
+    <ClInclude Include="CreateSurgery.h" />
     <ClInclude Include="Menu.h" />
     <ClInclude Include="Patient.h" />
+    <ClInclude Include="PatientLogin.h" />
+    <ClInclude Include="PatientMenu.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="SelectDoctor.h" />
+    <ClInclude Include="SelectSurgery.h" />
     <ClInclude Include="Surgery.h" />
-    <ClInclude Include="User.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="OOSDDII.rc" />

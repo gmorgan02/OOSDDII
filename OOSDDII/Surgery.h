@@ -1,14 +1,21 @@
 #pragma once
 #include <string>
+#include <vector>
+
 
 class Surgery
 {
 public:
 	Surgery();
 	~Surgery();
-	void GetSurgery(std::string, std::string, std::string, std::string);
-	void CreateSurgery(std::string, std::string, std::string, std::string);
+	void SetName(std::string);
+	std::string GetName();
+	void SetLocation(std::string);
+	std::string GetLocation();
+	std::vector<std::string> GetSurgeries();
+	void CreateSurgery(std::string, std::string);
 private:
-
+	std::string Name, Location;
+	
 };
 

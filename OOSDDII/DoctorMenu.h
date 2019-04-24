@@ -1,3 +1,4 @@
 #pragma once
+#include "Doctor.h"
 
-void DoctorMenu();
+void DoctorMenu(Doctor* objLoggedInDoctor);
